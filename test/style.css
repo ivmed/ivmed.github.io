@@ -414,6 +414,7 @@ output#res-num {
 .swiper-slide:nth-child(7) .test-form ul {
     max-height: 260px;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: auto
     
 }
 .swiper-slide:nth-child(7) .test-form ul::-webkit-scrollbar-track {
@@ -451,6 +452,7 @@ output#res-num {
     .swiper-slide:nth-child(7) .test-form ul::-webkit-scrollbar, .swiper-slide:nth-child(8) .test-form ul::-webkit-scrollbar {
         width: 10px!important;
         -webkit-appearance: none;
+        -webkit-overflow-scrolling: auto
     }
     .swiper-slide:nth-child(7) .test-form ul::-webkit-scrollbar-track, .swiper-slide:nth-child(8) .test-form ul::-webkit-scrollbar-track {
         display: block!important;
