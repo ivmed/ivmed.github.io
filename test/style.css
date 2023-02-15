@@ -414,6 +414,7 @@ output#res-num {
 .swiper-slide:nth-child(7) .test-form ul {
     max-height: 260px;
     overflow-y: scroll;
+    -webkit-overflow-scrolling: auto;
 }
 .swiper-slide:nth-child(7) .test-form ul::-webkit-scrollbar-track {
     background: rgba(159, 178, 190, 0.47);
