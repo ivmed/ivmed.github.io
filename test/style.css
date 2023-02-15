@@ -450,6 +450,10 @@ output#res-num {
 @media (max-width:767px) {
     .swiper-slide:nth-child(7) .test-form ul::-webkit-scrollbar, .swiper-slide:nth-child(8) .test-form ul::-webkit-scrollbar {
         width: 10px!important;
+        display: block!important;
+    }
+    .swiper-slide:nth-child(7) .test-form ul::-webkit-scrollbar-track, .swiper-slide:nth-child(8) .test-form ul::-webkit-scrollbar-track {
+        display: block!important;
     }
     .body-test {
         overflow-x: hidden;
