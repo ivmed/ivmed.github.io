@@ -734,7 +734,7 @@ output#res-num {
     transition: all 1s;
     height: 100%;
     position: fixed;
-    top: 32%;
+    top: 35%;
 }
 .ellipses {
     position: relative;
