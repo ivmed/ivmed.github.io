@@ -449,13 +449,16 @@ output#res-num {
 
 
 @media (max-width:767px) {
+    .swiper-slide:nth-child(7) .test-form ul,.swiper-slide:nth-child(8) .test-form ul {
+        max-height: 100%;
+    }
     .swiper-slide:nth-child(7) .test-form ul::-webkit-scrollbar, .swiper-slide:nth-child(8) .test-form ul::-webkit-scrollbar {
-        width: 10px!important;
-        -webkit-appearance: none;
-        -webkit-overflow-scrolling: auto
+        width: 10px;
+        /* -webkit-appearance: none;
+        -webkit-overflow-scrolling: auto */
     }
     .swiper-slide:nth-child(7) .test-form ul::-webkit-scrollbar-track, .swiper-slide:nth-child(8) .test-form ul::-webkit-scrollbar-track {
-        display: block!important;
+        /* display: block!important; */
     }
     .body-test {
         overflow-x: hidden;
