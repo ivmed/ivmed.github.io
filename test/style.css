@@ -451,6 +451,7 @@ output#res-num {
 @media (max-width:767px) {
     .swiper-slide:nth-child(7) .test-form ul,.swiper-slide:nth-child(8) .test-form ul {
         max-height: 100%;
+        overflow-y: auto;
     }
     .swiper-slide:nth-child(7) .test-form ul::-webkit-scrollbar, .swiper-slide:nth-child(8) .test-form ul::-webkit-scrollbar {
         width: 10px;
