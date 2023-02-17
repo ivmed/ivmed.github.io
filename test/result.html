@@ -28,7 +28,7 @@
                     </svg>
                     пройти тест повторно
                 </a>
-                <a onclick="navigator.clipboard.writeText(window.location.href)" class="res-share">
+                <a onclick="navigator.clipboard.writeText(window.location.href);this.insertAdjacentHTML('afterend', '<div class=linktooltips-container>Link copied</div>');setTimeout(() => { document.querySelectorAll('.linktooltips-container').forEach(el => el.remove()); }, 3000);" class="res-share" style="cursor:pointer;">
                     <img src="static/share.svg" alt="">
                     поділитись<br>з близькими
                 </a>
