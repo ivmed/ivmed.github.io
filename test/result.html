@@ -121,7 +121,7 @@
         const urlParams = new URLSearchParams(queryString);
         const score = urlParams.get('score');
         const lvl = urlParams.get('lvl');
-        console.log(queryString)
+        console.log(window.location.href)
         resultscore.innerHTML = score;
         if (lvl == 'middle') {
             expltxt.innerHTML = 'Вам або вашій парі варто замислитися про репродуктивне здоров’я. Існує вірогідність ускладнень...';
