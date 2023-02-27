@@ -640,6 +640,9 @@ output#res-num {
     display: block;
 
 }
+.res-explain.full .expl-txt-full ul{
+    list-style-position: inside;
+}
 .res-explain.full .to-full-txt {
     display: none;
 }
