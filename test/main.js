@@ -238,13 +238,16 @@ $('input').click(function () {
         dres += 3;
     }
     if (dwoman[6].checked) {
-        dres += 3;
+        dres += 2;
     }
     if (dwoman[7].checked) {
         dres += 1;
     }
     if (dwoman[8].checked) {
         dres += 1;
+    }
+    if (dwoman[9].checked) {
+        dres += 3;
     }
 
     dwoman.forEach(
@@ -288,13 +291,13 @@ $('input').click(function () {
         dres += 3;
     }
     if (dman[6].checked) {
-        dres += 3;
+        dres += 1;
     }
     if (dman[7].checked) {
         dres += 1;
     }
     if (dman[8].checked) {
-        dres += 1;
+        dres += 3;
     }
 
     dman.forEach(
